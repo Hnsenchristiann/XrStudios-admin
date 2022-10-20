@@ -137,9 +137,9 @@
             Next
         </button>
       </div>
-    </div>
 
-    <div class="date-range">{{ dateRangeText }}</div>
+      <div class="date-range">{{ dateRangeText }}</div>
+    </div>
 
     <calendar
       ref="calendar"
@@ -177,6 +177,7 @@
 
 <script>
 import Calendar from '../components/Calendar/Calendar.vue';
+import GanttChart from '../components/GanttChart/GanttChart.vue';
 import { events } from '../components/Calendar/mock-data';
 import { theme  } from '../components/Calendar/theme';
 import '@toast-ui/calendar/dist/toastui-calendar.css';
@@ -187,6 +188,7 @@ export default {
   name: 'HomeView',
   components: {
     Calendar,
+    GanttChart
   },
   data() {
     return {
