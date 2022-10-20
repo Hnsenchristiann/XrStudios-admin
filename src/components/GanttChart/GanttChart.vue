@@ -1,11 +1,11 @@
 <template>
     <div>
-        <svg ref="gantt" />
+        <svg ref="gantt"></svg>
     </div>
 </template>
 
 <script>
-import Gantt from 'frappe-gantt';
+// import Gantt from '@frappe-gantt';
 export default {
     name: 'GanttChart',
     props: {
@@ -71,6 +71,6 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<!-- <style lang="sss">
 @import "~frappe-gantt/dist/frappe-gantt.css";
-</style>
+</style> -->
